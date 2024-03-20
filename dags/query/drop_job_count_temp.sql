@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS {{ params.country }}_job_count_raw_{{ ds_nodash }};

@@ -1,0 +1,5 @@
+scrapfly-sdk==0.8.10
+selenium
+webdriver-manager
+beautifulsoup4
+apache-airflow-providers-microsoft-mssql

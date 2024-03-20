@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS layoff_raw_temp;

@@ -1,0 +1,8 @@
+build image:
+docker build . -t apache-airflow:fred
+to start airflow:
+docker compose up -d
+to stop airflow:
+docker compose stop
+to kill airflow:
+docker compose down
