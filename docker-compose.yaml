@@ -69,10 +69,10 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_HOST: smtp.mail.yahoo.com
     AIRFLOW__SMTP__SMTP_STARTTLS: True
     AIRFLOW__SMTP__SMTP_SSL: False
-    AIRFLOW__SMTP__SMTP_USER: fredxie26@yahoo.ca
+    AIRFLOW__SMTP__SMTP_USER: 
     AIRFLOW__SMTP__SMTP_PASSWORD:
     AIRFLOW__SMTP__SMTP_PORT: 465
-    AIRFLOW__SMTP__SMTP_MAIL_FROM: fredxie26@yahoo.ca
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: 
     # yamllint disable rule:line-length
     # Use simple http server on scheduler for health checks
     # See https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/check-health.html#scheduler-health-check-server
