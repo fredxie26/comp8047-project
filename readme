@@ -1,8 +1,18 @@
-build image:
+1. build image:
 docker build . -t apache-airflow:fred
-to start airflow:
+2. to start airflow:
 docker compose up -d
-to stop airflow:
+3. to stop airflow:
 docker compose stop
-to kill airflow:
+4. to kill airflow:
 docker compose down
+
+Code structure:
+Config folder: contains some additional airflow configurations including smtp setting. password is removed
+dags folder -> jupyter-scripts folder: contains the jupyter notebood code for data analysis and future prediction. connections strings are removed
+dags folder -> query folder: contains the query being executed by airflow jobs
+dags folder -> scraper-scripts folder: contains two python scripts for scraping indeed data
+dags folder -> job_count_etl_mssql.py and layoff_etl_mssql.py: python code for setting up my custom airflow dags
+Dockerfile: docker entrance file
+docker-compose.yaml: additional docker configurations used by airflow
+requirements.txt: additional python packages needed for the project
